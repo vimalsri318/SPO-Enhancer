@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { toast } from "sonner";
 import { ArrowRight, User, Mail, Phone, Globe, Building2, BookOpen } from "lucide-react";
-import type { FormData } from "@/app/page";
+import type { FormData } from "@/types/form";
 
 interface Props {
     data: FormData;
